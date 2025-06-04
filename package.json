@@ -1,0 +1,49 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"dependencies": {
+		"@itrocks/class-type": "latest",
+		"@itrocks/decorator": "latest"
+	},
+	"description": "Stores previous property names to help manage schema changes, legacy data access, and so on",
+	"devDependencies": {
+		"typescript": "~5.8"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": "./cjs/former-name.js",
+	"homepage": "https://it.rocks",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"cjs/*",
+		"!*.map"
+	],
+	"keywords": [
+		"backend",
+		"decorator",
+		"former",
+		"history",
+		"it.rocks",
+		"name",
+		"old",
+		"previous",
+		"property",
+		"rename",
+		"renamed"
+	],
+	"license": "ISC",
+	"name": "@itrocks/former-name",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/former-name.git"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"types": "./cjs/former-name.d.ts",
+	"version": "0.0.1"
+}
