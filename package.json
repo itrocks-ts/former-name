@@ -9,7 +9,7 @@
 	},
 	"description": "Stores previous property names to help manage schema changes, legacy data access, and so on",
 	"devDependencies": {
-		"typescript": "~5.8"
+		"typescript": "~5.9"
 	},
 	"engines": {
 		"node": ">=18"
@@ -51,5 +51,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/former-name.d.ts",
-	"version": "0.0.2"
+	"version": "0.0.3"
 }
