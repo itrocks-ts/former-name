@@ -23,23 +23,29 @@
 		"!*.map"
 	],
 	"keywords": [
+		"automatic",
+		"automation",
 		"backend",
 		"backward",
 		"compatible",
+		"data",
 		"decorator",
 		"former",
 		"history",
 		"it.rocks",
+		"migration",
 		"legacy",
 		"mapping",
 		"name",
+		"naming",
 		"old",
 		"previous",
 		"property",
 		"refactor",
 		"rename",
 		"renamed",
-		"schema"
+		"schema",
+		"versioning"
 	],
 	"license": "ISC",
 	"name": "@itrocks/former-name",
@@ -51,5 +57,5 @@
 		"build": "tsc"
 	},
 	"types": "./cjs/former-name.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
