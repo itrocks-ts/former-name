@@ -9,17 +9,17 @@
 	},
 	"description": "Stores previous property names to help manage schema changes, legacy data access, and so on",
 	"devDependencies": {
-		"typescript": "~5.9"
+		"typescript": "^6.0"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=24"
 	},
 	"exports": "./cjs/former-name.js",
 	"homepage": "https://it.rocks",
 	"files": [
 		"LICENSE",
 		"README.md",
-		"cjs/*",
+		"cjs",
 		"!*.map"
 	],
 	"keywords": [
@@ -56,6 +56,5 @@
 	"scripts": {
 		"build": "tsc"
 	},
-	"types": "./cjs/former-name.d.ts",
-	"version": "0.2.0"
+	"version": "0.2.1"
 }
